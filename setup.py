@@ -17,5 +17,10 @@ setup(
         "Natural Language :: English",
         "Operating System :: OS Independent",
         "Programming Language :: Python"
-    ]
+    ],
+    entry_points={
+        "console_scripts": [
+            "smile = smiler:smile"
+        ]
+    }
 )
