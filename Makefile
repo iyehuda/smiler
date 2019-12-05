@@ -4,6 +4,10 @@ NAME := smiler
 deps:
 	pip install -r requirements-dev.txt
 
+.PHONY: lint
+lint:
+	pylint $(NAME)
+
 .PHONY: build
 build:
 	python setup.py sdist bdist_wheel

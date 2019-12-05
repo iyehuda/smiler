@@ -1,3 +1,5 @@
+"""Make the console smile"""
+
 from smiler import smile
 
 
