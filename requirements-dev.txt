@@ -1,2 +1,4 @@
 twine
 pylint
+setuptools >= 30.3.0
+setuptools_scm
